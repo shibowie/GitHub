@@ -73,7 +73,9 @@ p {
 
 
 /* KONTAKTSIDA */
-
+.c {
+    padding:20px;
+}
 #contacth2 {
     color:brown;
 }
