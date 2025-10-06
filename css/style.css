@@ -10,6 +10,9 @@ body {
     color: #aeba8a;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
 }
 header {
     padding: 12px;
@@ -50,6 +53,8 @@ footer {
     padding: 10px 0 10px 30px;
     background-color: var(--secondary-background);
     color: var(--main-background);
+    position: relative;
+    margin-top: auto;
 }
 
 
