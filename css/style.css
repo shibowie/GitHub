@@ -1,4 +1,99 @@
-.gallery-rubrik {
+:root {
+    --main-background: #134B42;
+    --secondary-background: #eea83b;
+}
+
+body {
+    background: var(--main-background);
+    color: #aeba8a;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    padding: 12px;
+    background-color: var(--secondary-background);
+    width: 100vw;
+    color: var(--main-background);
+    font-size: 20px;
+    font-weight: bold;
+}
+.meny-border {
+    background-color: var(--secondary-background);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.meny {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 24px;
+    color: #134B42;
+}
+
+.meny:hover {
+    cursor: pointer;
+    background-color: #ca763b;
+}
+
+main {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    max-width: 600px;
+}
+
+footer {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0 10px 30px;
+    background-color: var(--secondary-background);
+    color: var(--main-background);
+}
+#contacth2 {
+    color:brown;
+}
+.contact input[type="text"] {
+    width:200px;
+    border:1px solid black;
+    border-radius:5px;
+    margin:5px;
+    outline:none;
+    background-color: brown;
+    color:white;
+}
+.contact input[type="text"]:focus {
+    border:1px solid black;
+    border-radius:5px;
+    color:white;
+}
+input::placeholder {
+  color: white;
+}
+.contact textarea {
+    outline:none;
+    border:1px solid black;
+    min-width:300px;
+    min-height:100px;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: brown;
+    color:white;
+}
+textarea::placeholder {
+  color: white;
+
+}
+.contact button {
+border-radius:5px;
+background-color: brown;
+color:white;
+}.gallery-rubrik {
     text-align: center;
 
     
