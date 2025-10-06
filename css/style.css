@@ -99,3 +99,28 @@ textarea::placeholder {
     background-color: brown;
     color:white;
 }
+
+.gallery-rubrik {
+    text-align: center;
+
+    
+}
+
+.gallery {
+    display:flex;
+    justify-content:center;
+
+}
+
+.gallery-item {
+    border: solid rgb(139, 138, 136);
+    border-radius: 5px;
+
+}
+
+.gallery-item img {
+    /* max-width:200px;
+    width: 100%; */
+    height:auto;
+    width: 200px;
+}
