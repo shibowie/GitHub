@@ -3,6 +3,8 @@
     --secondary-background: #eea83b;
 }
 
+/* STARTSIDA */
+
 body {
     background: var(--main-background);
     color: #aeba8a;
@@ -55,6 +57,9 @@ footer {
     background-color: var(--secondary-background);
     color: var(--main-background);
 }
+
+/* KONTAKTSIDA */
+
 #contacth2 {
     color:brown;
 }
@@ -73,7 +78,7 @@ footer {
     color:white;
 }
 input::placeholder {
-  color: white;
+    color: white;
 }
 .contact textarea {
     outline:none;
@@ -86,11 +91,11 @@ input::placeholder {
     color:white;
 }
 textarea::placeholder {
-  color: white;
+    color: white;
 
 }
 .contact button {
-border-radius:5px;
-background-color: brown;
-color:white;
+    border-radius:5px;
+    background-color: brown;
+    color:white;
 }
