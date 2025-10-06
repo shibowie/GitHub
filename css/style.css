@@ -1,19 +1,24 @@
+:root {
+    --main-background: #134B42;
+    --secondary-background: #eea83b;
+}
+
 body {
-    background: #134B42;
+    background: var(--main-background);
     color: #aeba8a;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
 header {
     padding: 12px;
-    background-color: #eea83b;
+    background-color: var(--secondary-background);
     width: 100vw;
-    color: #134B42;
+    color: var(--main-background);
     font-size: 20px;
     font-weight: bold;
 }
 .meny-border {
-    background-color: #eea83b;
+    background-color: var(--secondary-background);
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -47,6 +52,6 @@ footer {
     font-size: 18px;
     font-weight: bold;
     padding: 10px 0 10px 30px;
-    background-color: #eea83b;
-    color: #134B42;
+    background-color: var(--secondary-background);
+    color: var(--main-background);
 }
