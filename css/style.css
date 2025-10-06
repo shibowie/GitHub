@@ -1,6 +1,7 @@
 
 #contacth2 {
     color:brown;
+    font-size: 32px;
 }
 .contact input[type="text"] {
     width:200px;
@@ -24,14 +25,14 @@ input::placeholder {
     border:1px solid black;
     min-width:300px;
     min-height:100px;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 600px;
+    max-height: 600px;
     background-color: brown;
     color:white;
 }
 textarea::placeholder {
-  color: white;
-
+    color: white;
+    width:80%
 }
 .contact button {
 border-radius:5px;
